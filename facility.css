@@ -1,0 +1,23 @@
+body{
+    background-image: linear-gradient(to bottom , #021341fa, #1b8aeb86);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main{
+    text-align: center;
+}
+
+.first{
+    font-style: italic;
+    background-image: linear-gradient(to bottom , #02454e9c, #3dd1d886);
+    background-size: 60;
+}
+.options li{
+    display: inline-block;
+    font-size: 23px;
+    padding: 10px;
+    text-align: right;
+}
+.options li a{
+    color: white;
+}

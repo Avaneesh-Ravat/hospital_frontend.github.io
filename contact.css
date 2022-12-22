@@ -1,0 +1,22 @@
+body{
+    background-image:url("images/contact.jpg");
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+.first{
+    font-style: italic;
+    background-image: linear-gradient(to bottom , #efc2d7, #9895ef);
+    background-size: 60;
+}
+.options li{
+    display: inline-block;
+    font-size: 23px;
+    padding: 10px;
+    text-align: right;
+}
+.options li a{
+    color: white;
+}
+
+

@@ -1,0 +1,24 @@
+body{
+    background-image: linear-gradient(to bottom , #021341fa, #1b8aeb86);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.first{
+    font-style: italic;
+    background-image: linear-gradient(to bottom , #39f4b39c, #2f949f86);
+    background-size: 60;
+}
+.options li{
+    display: inline-block;
+    font-size: 23px;
+    padding: 20px;
+    text-align: right;
+}
+.options li a{
+    color: white;
+}

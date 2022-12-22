@@ -1,0 +1,45 @@
+body{
+    background-image: url('images/appoitmenrbg.jpg');
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+
+.first{
+    font-style: italic;
+    /* background-image: linear-gradient(to bottom , #efc2d7, #9895ef); */
+    background-size: 60;
+}
+.options li{
+    display: inline-block;
+    font-size: 23px;
+    padding: 10px;
+    text-align: right;
+}
+.options li a{
+    color: white;
+}
+.box{
+    margin-left: 210px;
+    
+    border: 5px ;
+    border-color: black;
+    width: 400px;
+    
+    background-color: rgba(232, 207, 16, 0.555);
+}
+.margin{
+    margin-left: 10px;
+    
+}
+.h1color{
+    color: beige;
+}
+.h2color{
+    color: beige;
+    margin-left: 200px;
+}
+.submit{
+    margin-left: 210px;
+    margin-top: 10px;
+}

@@ -1,0 +1,112 @@
+body{
+    background-image: url('images/homebg.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+img{
+    float : left;
+    margin-right: 10px;
+}
+.first{
+    font-style: italic;
+    background-image: linear-gradient(to bottom , #ffe83e9c, #ff952a86);
+    background-size: 60;
+}
+.options li{
+    display: inline-block;
+    font-size: 23px;
+    padding: 10px;
+    text-align: right;
+}
+.options li a{
+    color: white;
+}
+.specialist li{
+    display: inline-block;
+    font-size: 23px;
+    padding: 10px;
+    text-align: right;
+}
+.details{
+    color: white;
+}
+.specialist{
+    background-image: linear-gradient(to bottom , #5c054f9c, #e136ed86);
+    margin-right: 500px;
+}
+
+
+.appoitment{
+    margin-left: 10px;
+    /* float: right; */
+}
+.review{
+    display: inline-block;
+    margin-left: 30px;
+}
+.slider_frame{
+    float: left;
+    overflow: hidden;
+    height: 400px;
+    width: 600px;
+    margin-left: 30px;
+    margin-top: 50px;
+    background-image: url("images/caring 5.jpg");
+    background-size: contain;
+
+}
+@-webkit-keyframes slide_animation{
+    0%{left: 0px;}
+    10%{left: 0px;}
+    20%{left: 1200px;}
+    30%{left: 1200px;}
+    40%{left: 2400px;}
+    50%{left: 2400px;}
+    60%{left: 1200px;}
+    70%{left: 1200px;}
+    80%{left: 0px;}
+    90%{left: 0px;}
+    100%{left: 0px;}
+}
+
+.slide_images{
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -1400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 25s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+.image_container{
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    /* float: left; */
+}
+.about{
+    background-image:  linear-gradient(to bottom , #c6e5e692, #00bcfb5e);
+    margin-left: 650px;
+    margin-top: 50px;
+}
+.quantity{
+    background-image: linear-gradient(to bottom , #88999a9f, #f9fcfd84);
+    text-align: center;
+}
+#specialisth1{
+    background-image: linear-gradient(to bottom , #ffe83e9c, #ff952a86);
+    color: black;
+    margin-right: 500px;
+}
+.contact{
+    background-image:  linear-gradient(to bottom , #c6e5e692, #00bcfb5e);
+    margin-left: 750px;
+}
+#map li a{
+    color: black;
+}
+#map li{
+    font-size: 23px;
+}

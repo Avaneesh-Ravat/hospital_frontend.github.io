@@ -1,0 +1,23 @@
+body{
+    background-image: url("images/review.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+h2{
+    color: white;
+}
+.first{
+    font-style: italic;
+    background-image: linear-gradient(to bottom , #f7b5b6, #a6e6d6);
+    background-size: 60;
+}
+.options li{
+    display: inline-block;
+    font-size: 23px;
+    padding: 10px;
+    text-align: right;
+}
+.options li a{
+    color: white;
+}
